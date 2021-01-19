@@ -1,3 +1,3 @@
 <?php
 $variablePHP = $_GET['seleccionar'];
-echo $variablePHP;
+echo "\$variablePHP => $variablePHP";
