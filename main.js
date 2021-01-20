@@ -11,6 +11,9 @@ seleccionarA.onchange = () => {
             resultados.textContent = data;
             console.log(data);
         })
+        .catch( error => {
+            resultados.textContent = error;
+        })
 };
 
 // Ejemplo 2:
@@ -25,5 +28,8 @@ seleccionarB.onchange = () => {
         .then(data => {
             resultados.textContent = data;
             console.log(data);
+        })
+        .catch( error => {
+            resultados.textContent = error;
         })
 };
